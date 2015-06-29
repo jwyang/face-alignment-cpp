@@ -1,0 +1,26 @@
+﻿Build started 2015/3/9 15:24:31.
+     1>Project "D:\Projects_Face_Alignment\FaceAlignment\FaceAlignment\FaceAlignment.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W1 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt train.cpp
+         train.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects_Face_Alignment\FaceAlignment\Release\FaceAlignment.exe" /NOLOGO opencv_core249.lib opencv_highgui249.lib opencv_objdetect249.lib opencv_imgproc249.lib opencv_calib3d249.lib opencv_ocl249.lib opencv_video249.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Projects_Face_Alignment\FaceAlignment\Release\FaceAlignment.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Projects_Face_Alignment\FaceAlignment\Release\FaceAlignment.lib" /MACHINE:X86 /SAFESEH Release\derivebinaryfeat.obj
+         Release\evaluate.obj
+         Release\globalregression.obj
+         Release\landmark.obj
+         Release\daxpy.obj
+         Release\ddot.obj
+         Release\dnrm2.obj
+         Release\dscal.obj
+         Release\linear.obj
+         Release\tron.obj
+         Release\main.obj
+         Release\randomforest.obj
+         Release\train.obj
+         Release\utils.obj
+         FaceAlignment.vcxproj -> D:\Projects_Face_Alignment\FaceAlignment\Release\FaceAlignment.exe
+     1>Done Building Project "D:\Projects_Face_Alignment\FaceAlignment\FaceAlignment\FaceAlignment.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.57
