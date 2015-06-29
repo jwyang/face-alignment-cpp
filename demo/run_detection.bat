@@ -1,0 +1,1 @@
+FaceDetection -f ./haarcascade_frontalface_alt2.xml -m ./model/model.bin -t train.txt -i ./images/image_0001.png

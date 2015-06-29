@@ -1,0 +1,1 @@
+FaceAlignment -i ./train.txt -o ./model/model.bin
